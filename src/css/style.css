@@ -201,7 +201,6 @@ body {
     align-items: center;
     padding: 5em 4em;
     gap: calc(4em + 2vw);
-    overflow-x: hidden;
 
     .personal-title {
       font: 700 calc(1.5rem + 1.5vw) "Kanit", sans-serif;
@@ -587,7 +586,7 @@ body {
     .collab-btn {
       cursor: pointer;
       position: relative;
-      padding: calc(1em + 1vw) calc(1.5em + 1vw);
+      padding: calc(1em +.5vw) calc(1.5em + 1vw);
       width: fit-content;
       font-size: 16px;
       border: 2px solid rgb(255, 211, 118);
