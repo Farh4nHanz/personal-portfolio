@@ -201,6 +201,7 @@ body {
     align-items: center;
     padding: 5em 4em;
     gap: calc(4em + 2vw);
+    overflow-x: auto;
 
     .personal-title {
       font: 700 calc(1.5rem + 1.5vw) "Kanit", sans-serif;
