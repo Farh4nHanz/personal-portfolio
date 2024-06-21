@@ -194,7 +194,6 @@ body {
   }
 
   .about {
-    min-height: 80vh;
     background-color: #fff;
     display: flex;
     justify-content: center;
@@ -354,7 +353,6 @@ body {
 
   .projects {
     padding-block: 2em;
-    overflow-x: hidden;
 
     .project-item {
       position: relative;
@@ -558,7 +556,6 @@ body {
   }
 
   .collaboration {
-    min-height: 50vh;
     padding: 2.5em;
     display: flex;
     justify-content: space-around;
