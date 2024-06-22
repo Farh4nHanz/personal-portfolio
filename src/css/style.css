@@ -15,6 +15,7 @@ html {
 body {
   font-family: "Kanit", sans-serif;
   scroll-behavior: smooth;
+  width: 100%;
   max-width: 100%;
   overflow-x: hidden;
 
@@ -207,27 +208,24 @@ body {
     padding: 5em 4em;
     gap: calc(4em + 2vw);
     margin: 0;
-    width: 100%;
-    max-width: 100%;
-    overflow-x: hidden;
 
     .personal-title {
       font: 700 calc(1.5rem + 1.5vw) "Kanit", sans-serif;
       text-transform: uppercase;
-      transform: translateX(100px);
+      transform: translateY(80px);
       opacity: 0;
       transition: all ease 1.5s;
     }
 
     .personal-title.active {
-      transform: translateX(0);
+      transform: translateY(0);
       opacity: 1;
     }
 
     .personal-text {
       font-size: calc(0.75rem + 0.5vw);
       margin-top: 30px;
-      transform: translateY(50px);
+      transform: translateY(100px);
       opacity: 0;
       transition: all ease 1.5s;
     }
@@ -238,13 +236,13 @@ body {
     }
 
     .photo {
-      transform: translateX(-100%);
+      transform: translateY(100px);
       opacity: 0;
       transition: all ease 1.5s;
     }
 
     .photo.active {
-      transform: translateX(0);
+      transform: translateY(0);
       opacity: 1;
     }
 
@@ -373,12 +371,12 @@ body {
       text-transform: uppercase;
       position: relative;
       opacity: 0;
-      transform: translateX(-100px);
+      transform: translateY(100px);
       transition: all ease 1.5s;
     }
 
     .project-title.active {
-      transform: translateX(0);
+      transform: translateY(0);
       opacity: 1;
     }
 
