@@ -15,9 +15,6 @@ html {
 body {
   font-family: "Kanit", sans-serif;
   scroll-behavior: smooth;
-  width: 100%;
-  max-width: 100%;
-  overflow-x: hidden;
 
   .jumbotron {
     background: rgb(0, 0, 0);
@@ -258,7 +255,7 @@ body {
   }
 
   .skills {
-    width: 100%;
+    /* width: 100%; */
     height: fit-content;
     background-color: rgba(18, 18, 18, 1);
     padding-block-start: 30px;
@@ -397,6 +394,7 @@ body {
         transform: translateY(150px);
         opacity: 0;
         transition: all ease 1s;
+        margin-block: 1em;
 
         & a {
           text-decoration: none;
@@ -499,8 +497,8 @@ body {
 
     .explore {
       text-decoration: none;
-      position: relative;
-      transform: translateY(100px);
+      margin-block: 2em;
+      transform: translateY(50px);
       opacity: 0;
       transition: all ease 1.7s;
     }
@@ -514,7 +512,6 @@ body {
       border: none;
       background: none;
       cursor: pointer;
-      margin: 4em;
 
       & span {
         padding-bottom: 7px;
