@@ -206,7 +206,7 @@ body {
     align-items: center;
     padding: 5em 4em;
     gap: calc(4em + 2vw);
-    overflow: hidden;
+    overflow-x: hidden;
 
     .personal-title {
       font: 700 calc(1.5rem + 1.5vw) "Kanit", sans-serif;
@@ -676,7 +676,7 @@ body {
   }
 
   .about {
-    flex-direction: column;
+    flex-wrap: wrap;
 
     .personal-info > .personal-title {
       text-align: center;
@@ -704,7 +704,7 @@ body {
   .social-media {
     position: absolute;
     left: 0;
-    top: 50%; /* adjust the top value to your liking */
+    top: 50%;
     transform: translateY(-50%);
     margin-left: 20px;
     transition: transform ease-in-out 0.3s;
@@ -717,7 +717,7 @@ body {
 
       & li {
         display: flex;
-        margin-right: 20px; /* adjust the margin value to your liking */
+        margin-right: 20px;
       }
     }
   }
