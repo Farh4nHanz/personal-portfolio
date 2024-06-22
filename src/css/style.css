@@ -206,6 +206,9 @@ body {
     align-items: center;
     padding: 5em 4em;
     gap: calc(4em + 2vw);
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
     overflow-x: hidden;
 
     .personal-title {
